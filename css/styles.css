@@ -66,6 +66,9 @@ body {
 }
 /* === HEADER STYLES ===*/
 
+.page-header: {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -74,6 +77,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .page-nav {
   display: flex;
@@ -85,7 +89,7 @@ body {
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-link {
   display: block;
@@ -115,7 +119,7 @@ body {
 }
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 /* === HERO STYLES === */
@@ -142,6 +146,7 @@ body {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  border: none;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -149,7 +154,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 .order-service-btn:hover,
@@ -165,7 +170,7 @@ body {
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .benefits-list-title {
   color: #2e2f42;
@@ -193,7 +198,7 @@ body {
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 .team-cards {
@@ -232,6 +237,7 @@ body {
 .portfolio-list {
   display: flex;
   column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .portfolio-list-item {
@@ -243,6 +249,7 @@ body {
   border: 1px;
   border-style: solid;
   border-color: #e7e9fc;
+  border-top: none;
 }
 .portfolio-list-title {
   font-weight: 500;
@@ -251,7 +258,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   padding-left: 16px;
 }
 .portfolio-list-text {
@@ -268,7 +275,7 @@ body {
 
 .page-footer {
   background: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -278,6 +285,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-accent {
   color: #f4f4fd;
@@ -288,6 +297,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
