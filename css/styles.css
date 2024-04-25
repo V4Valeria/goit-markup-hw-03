@@ -66,8 +66,11 @@ body {
 }
 /* === HEADER STYLES ===*/
 
-.page-header: {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
 }
 .page-logo {
   color: #4d5ae5;
@@ -105,7 +108,7 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.contacts {
+.contact {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -113,11 +116,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
-.contacts-list {
+.contact-list {
   display: flex;
   gap: 40px;
 }
@@ -161,10 +164,6 @@ body {
 .order-service-btn:focus {
   background: #404bbf;
 }
-.hero-content-wrapper {
-  display: flex;
-  align-items: center;
-}
 
 /* ===BENEFITS STYLES === */
 
@@ -202,7 +201,7 @@ body {
   flex-wrap: wrap;
 }
 .team-cards {
-  padding: 32px 16px;
+  padding: 32px 0px;
   width: 264px;
   border: 1px;
   border-style: solid;
@@ -221,6 +220,7 @@ body {
 .team-list-item {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-text {
   font-weight: 400;
